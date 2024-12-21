@@ -13,6 +13,6 @@ def convert_prores_to_mp4(input_file, output_file):
         print(f"Error durante la conversión: {e}")
 
 # Ejemplo de uso
-input_file = r'C:\Users\migue\Desktop\IMG_1536.mov'  # Archivo de entrada en formato ProRes 422 HQ
-output_file = r'C:\Users\migue\Desktop\video_convertido.mp4'  # Archivo de salida en formato MP4
+input_file = r"C:\Users\migue\Desktop\Secuencia01.mov" # Archivo de entrada en formato ProRes 422 HQ
+output_file = r"C:\Users\migue\Desktop\video_convertido.mp4"  # Archivo de salida en formato MP4
 convert_prores_to_mp4(input_file, output_file)
